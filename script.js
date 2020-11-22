@@ -35,6 +35,6 @@ function changeOpacity(){
 }
 
 // function changeOpacity(){
-//   opacityInput = document.getElementById("opacityInput").value;
-//   console.log(opacityInput);
+//  opacityInput = document.getElementById("opacityInput").value;
+//  console.log(opacityInput);
 // }
