@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adjust Dimensions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header></header>
+  <main>
+    <div>
+      <div id="imageDiv">
+        <img id="image" src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+      </div>
+      <div id="rightDiv">
+        <div id="inputDiv">
+          <label for="width">Enter width (in pixels)</label><br />
+          <input type="text" name="width" id="widthInput" placeholder="Enter width"><br />
+    
+          <label for="length">Enter length (in pixels)</label><br />
+          <input type="text" name="length" id="heightInput" placeholder="Enter height">
+        </div>
+        <div>
+          <button onclick="changeDimensions()" id="imageButton">Update Image Size</button>
+        </div>
+        <div id="opacityDiv">
+          <label for="opacity"></label>
+          <input id="opacityInput" type="text"><br />
+          <button onclick="changeOpacity()"id="opacityButton">Change opacity</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+  <script src="script.js"></script>
+</body>
+</html>
